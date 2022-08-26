@@ -5,5 +5,5 @@ class StudentForm(forms.ModelForm):
 
     class Meta:
         model = Student
-        fields = '__all__' 
-        labels = {"first_name": "Adınız", "last_name":"Soyadınız", "number":"Numaranız"}
+        fields = '__all__'
+        labels = {"first_name": "Your first name", "last_name":"Your last name", "number":"Your number"}

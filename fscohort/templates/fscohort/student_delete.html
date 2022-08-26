@@ -3,7 +3,7 @@
 
 {% block container %}
     <form action="" method="POST">
-        <p>Are You Sure! {{ student }}</p>
+        <p>Are You Sure! {{ student }} will be deleted.</p>
         {% csrf_token %}
         <input type="submit" value="Yes">
     </form>
